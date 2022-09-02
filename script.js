@@ -1,4 +1,4 @@
-let rating = "";
+let rating = 0;
 let rating1 = document.getElementById('one');
 let rating2 = document.getElementById('two');
 let rating3 = document.getElementById('three');
