@@ -1,0 +1,111 @@
+html, body{
+    height: 100%;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+  }
+
+  .mainContent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content{
+    width: 350px;
+    text-align: justify;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .contentThankYou{
+    width: 300px;
+    text-align: center;
+  }
+
+  .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(216, 12%, 54%)
+  }
+
+  
+
+  .ratings {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content h1 {
+    font-weight: 700;
+  }
+  .content p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+  }
+
+  .submitButton {
+    height: 40px;
+    width: 325px;
+    margin: 20px auto 0px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 2px;
+  }
+  .submitButton:hover{
+    background-color: hsl(216, 12%, 54%);
+    cursor: default;
+  }
+
+  .circleRating{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(217, 12%, 63%);
+    margin:5px 20px 5px 0px;
+  }
+
+  .circleRating:hover {
+    background-color: hsl(216, 12%, 54%);
+  }
+  .circleClicked {
+    background-color: hsl(25, 97%, 53%);
+  }
+
+
+
+  .thankContent{
+    text-align: center;
+
+  }
+
+  .thankimage{
+    height: 100px;
+    width: 150px;
+  }
+
+  .thankRating {
+    margin: 2px auto;
+    padding: 1px;
+    width: 50%;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 20px;
+    
+  }
+  .thankRating p {
+    margin: 3px;
+    color: hsl(25, 97%, 53%);
+  }
