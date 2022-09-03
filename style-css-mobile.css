@@ -14,7 +14,7 @@ html, body{
     }
     
     .content{
-      width: 90%;
+      width: 80%;
       text-align: justify;
       background-color: hsl(213, 19%, 18%);
       padding: 30px;
@@ -48,14 +48,14 @@ html, body{
       font-weight: 700;
     }
     .content p {
-      font-size: 15px;
+      font-size: 0.973;
       font-weight: 400;
       color: hsl(216, 12%, 54%);
     }
   
     .submitButton {
       height: 40px;
-      width: 325px;
+      width: 100%;
       margin: 20px auto 0px;
       background-color: hsl(25, 97%, 53%);
       border: none;
@@ -109,5 +109,6 @@ html, body{
     .thankRating p {
       margin: 3px;
       color: hsl(25, 97%, 53%);
+      font-size: 0.973;
     }
   }
