@@ -82,6 +82,31 @@ const clearContent = () => {
 }
 ```
 
+Furthermore, I got to know about the use of landmark elements for specifying different sections of the webpage including main, article, footer, address and such. 
+```html
+<main>
+  <header>This is the header of the main section </header>
+  This is the main section
+  <article>
+    <header> This is the heading of the article </header>
+    <p> This is the content in the article </p>
+  </article>
+</main>
+<footer>
+  This is the footer sectionn of the block
+</footer>
+```
+
+I also learnt about using media queries to make my page more responsive, while using media queries, the type of media queries need to be specified including screen, print and text. Default value of the media type is all. Afterwards the features are added in the media. 
+```css
+/* For styling the content of the page only when the minimum width is 400px */
+@media (min-width: 400px){
+  /* CSS styling code */
+}
+``` 
+
+
+
 ### Continued development
 
 Further more, I want to know more about JQuery and how does it work, its future prospects and its alternatives. 

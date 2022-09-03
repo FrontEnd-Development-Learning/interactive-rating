@@ -1,10 +1,11 @@
 html, body{
-  height: 100%;
-  font-family: 'Overpass', sans-serif;
-  background-color: hsl(216, 12%, 8%);
-  color: white;
-}
-  
+    height: 100%;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+  }
+
+@media (max-width: 400px) {
     .mainContent{
       height: 100%;
       display: flex;
@@ -13,7 +14,7 @@ html, body{
     }
     
     .content{
-      width: 350px;
+      width: 90%;
       text-align: justify;
       background-color: hsl(213, 19%, 18%);
       padding: 30px;
@@ -109,3 +110,4 @@ html, body{
       margin: 3px;
       color: hsl(25, 97%, 53%);
     }
+  }
